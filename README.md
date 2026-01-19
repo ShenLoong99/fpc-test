@@ -56,21 +56,21 @@
 <h2 id="file-structure">File Structure</h2>
 <pre>fpc-test/
 ├── .vs/                            # Visual Studio configuration files
-├── Assets/                         # Core game assets [cite: 56]
-│   ├── Materials/                  # Materials and shaders for URP [cite: 7]
-│   ├── Scenes/                     # Unity scene files [cite: 8]
-│   ├── Scripts/                    # C# gameplay scripts [cite: 26, 56]
-│   │   ├── MouseLook.cs            # Handles camera and body rotation [cite: 28]
-│   │   └── PlayerMovement.cs       # Handles walking, gravity, and jumping [cite: 56]
-│   ├── Settings/                   # URP and project-specific settings [cite: 5, 7]
+├── Assets/                         # Core game assets
+│   ├── Materials/                  # Materials and shaders for URP
+│   ├── Scenes/                     # Unity scene files
+│   ├── Scripts/                    # C# gameplay scripts
+│   │   ├── MouseLook.cs            # Handles camera and body rotation
+│   │   └── PlayerMovement.cs       # Handles walking, gravity, and jumping
+│   ├── Settings/                   # URP and project-specific settings
 │   ├── TutorialInfo/               # Tutorial metadata and resources
-│   ├── InputSystem_Actions.inputactions # Input system configuration [cite: 96]
+│   ├── InputSystem_Actions.inputactions # Input system configuration
 │   └── Readme.asset                # Internal Unity asset documentation
 ├── Library/                        # Unity cache (auto-generated)
 ├── Logs/                           # Editor and console logs
 ├── obj/                            # Intermediate build files
 ├── Packages/                       # Unity package dependencies
-├── ProjectSettings/                # Global project configuration [cite: 93]
+├── ProjectSettings/                # Global project configuration
 ├── UserSettings/                   # Local user-specific settings
 ├── .gitattributes                  # Git LFS and attribute settings
 ├── .gitignore                      # Defines files to ignore in version control
