@@ -13,7 +13,16 @@
   <img src="Assets/Images/cover-image.png" alt="cover-image" />
   <p>
     A beginner-friendly 3D character controller project built in Unity 6, featuring smooth mouse-looking and physics-based movement.
-  </p>
+  </p><br>
+
+  <img src="https://img.shields.io/badge/Unity-600000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity 6" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C# Scripting" />
+  <img src="https://img.shields.io/badge/URP-Modern%20Graphics-orange?style=for-the-badge" alt="URP" />
+  <img src="https://img.shields.io/badge/Status-Learning%20Project-blue?style=for-the-badge" alt="Status" /><br><br>
+    
+![Last Commit](https://img.shields.io/github/last-commit/ShenLoong99/fpc-test?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/ShenLoong99/fpc-test?style=for-the-badge)
+
   <a href="#about-the-project"><strong>Explore the docs »</strong></a>
 </div>
 
@@ -106,6 +115,7 @@
     <li><strong>W/A/S/D:</strong> Move the character.</li>
     <li><strong>Space:</strong> Jump.</li>
 </ul>
+<p>Watch the sample gameplay at my linkedIn post here: <a href="https://www.linkedin.com/posts/activity-7419597235161735168-N75n?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC64xbIBQ-4tMrEhn1BXRr8SmkzqiMPX0k8">First Person Controller Testing</a></p>
 <h3>Testing Focus</h3>
 <ul>
     <li><strong>Grounding:</strong> Verifying the <code>GroundCheck</code> object correctly resets vertical velocity.</li>
